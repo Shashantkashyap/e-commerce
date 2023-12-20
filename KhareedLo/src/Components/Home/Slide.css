@@ -1,0 +1,121 @@
+.homeSection .products_section{
+    /* padding: 10px 20px; */
+    width: 98%;
+    margin:10px auto;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.homeSection .slidePart{
+    display: flex;
+    align-items: center;
+}
+
+.slidePart .leftSlide{
+    width: 80%;
+}
+
+.slidePart .rightSlide{
+    width: 20%;
+    height:370px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+
+.centerImage img{
+    display: block;
+    /* margin-top: 13px; */
+    width: 80%;
+    margin: 13px auto;
+}
+
+.slidePart .rightSlide a{
+    color:#007185;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.slidePart .rightSlide img{
+    height:275px;
+    width:90%;
+}
+
+.productsSection .productsDeal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.productsSection .productsDeal h3{
+    color: #444;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.productsSection .productsDeal .viewBtn{
+    padding: 9px 15px;
+    border: none;
+    outline: none;
+    background-color: #2874f0;
+    color: #fff;
+    width: 100px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.productsSection a{
+    text-decoration: none;
+    color: #111;
+}
+
+
+.productsSection .productsItem img{
+    width: 150px;
+    height: 150px;
+    margin-top: 4px;
+}
+
+.productsSection .productsItem{
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.productsSection .productsItem p{
+    font-size: 14px;
+}
+
+
+
+.productsSection .productsItem p{
+    margin-top: 10px;
+}
+
+@media (max-width:768px){
+    .slidePart .rightSlide{
+     display: none;
+    }
+    
+    .slidePart .leftSlide{
+        width: 100%;
+    }
+
+    .centerImage img{
+        object-fit: cover;
+        height: 120px;
+    }
+}

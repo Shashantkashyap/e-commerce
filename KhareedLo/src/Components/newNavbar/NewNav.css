@@ -1,0 +1,36 @@
+.newNavDiv{
+    position: relative;
+}
+.newNav{
+    width: 100%;
+    height: 40px;
+    background-color: #232f3e;
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+
+.newNav .navData{
+    display: flex;
+    justify-content:space-between;
+}
+
+.newNav .navData .leftData{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+}
+
+.newNav .navData .leftData p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/* media query */
+@media (max-width:808px){
+    .newNav{
+       display: none;
+    }
+}
