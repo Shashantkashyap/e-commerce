@@ -24,8 +24,7 @@ function Right({item}) {
         <p>Your order is elegible for free delivery</p>
         <span style={{color:"#565959"}}>Select the option for checkout. Details</span>
         <h3>Subtotal ({item.length} item): <span style={{fontWeight:700}}>{price} </span></h3>
-        <Link to={"/click
-        "}>
+        <Link to={"/click"}>
         <button className='rightbuy_btn'>Process to buy</button>
         </Link>
         <div className="emi">
